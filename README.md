@@ -53,11 +53,11 @@ If `ts-node` is not installed, you will get below error.
 Execution of 1 workers started at 2024-02-25T12:22:43.500Z
 
 2024-02-25T12:22:43.515Z INFO @wdio/cli:launcher: Run onPrepare hook
-2024-02-25T12:22:43.519Z INFO @wdio/appium-service: Will spawn Appium process: node /Users/ganeshk/Automation Testing/Automation Testing/workdone/VSCode/wdio-appium-basic/node_modules/appium/index.js --base-path / --address localhost --port 4723 --relaxed-security
+2024-02-25T12:22:43.519Z INFO @wdio/appium-service: Will spawn Appium process: node /Users/ganeshk/wdio-appium-basic/node_modules/appium/index.js --base-path / --address localhost --port 4723 --relaxed-security
 2024-02-25T12:22:44.737Z ERROR @wdio/appium-service: WARN
 2024-02-25T12:22:44.738Z ERROR @wdio/cli:utils: A service failed in the 'onPrepare' hook
 Error: WARN
-    at Socket.<anonymous> (file:///Users/ganeshk/Automation%20Testing/Automation%20Testing/workdone/VSCode/wdio-appium-basic/node_modules/@wdio/appium-service/build/launcher.js:172:28)
+    at Socket.<anonymous> (file:///Users/ganeshk/wdio-appium-basic/node_modules/@wdio/appium-service/build/launcher.js:172:28)
     at Object.onceWrapper (node:events:628:26)
     at Socket.emit (node:events:513:28)
     at Socket.emit (node:domain:489:12)
@@ -105,7 +105,7 @@ ganeshk@Ganesh’s MacBook Pro wdio-appium-basic % npx wdio config
 🤖 WDIO Configuration Wizard 🧙
 ===============================
 
-? A project named "wdio-appium-basic" was detected at "/Users/ganeshk/Automation Testing/Automation Testing/workdone/VSCode/wdio-appium-basic", 
+? A project named "wdio-appium-basic" was detected at "/Users/ganeshk/wdio-appium-basic", 
 correct? Yes
 ? What type of testing would you like to do? E2E Testing - of Web or Mobile Applications
 ? Where is your automation backend located? On my local machine
@@ -217,7 +217,7 @@ appium -p 4723
   "appium:automationName": "UiAutomator2",
   "appium:platformVersion": "9.0",
   "appium:deviceName": "Pixel 6 Pro API 28",
-  "appium:app": "/Users/ganeshk/Automation Testing/Automation Testing/workdone/VSCode/wdio-appium-basic/app/android/ApiDemos-debug.apk"
+  "appium:app": "/Users/ganeshk/wdio-appium-basic/app/android/ApiDemos-debug.apk"
 }
 ```
 3. Then click 'Start Session' button
